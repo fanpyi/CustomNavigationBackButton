@@ -13,6 +13,8 @@
 		27B8ABBA1C11278100A1DB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABB81C11278100A1DB0D /* Main.storyboard */; };
 		27B8ABBC1C11278100A1DB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABBB1C11278100A1DB0D /* Assets.xcassets */; };
 		27B8ABBF1C11278100A1DB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABBD1C11278100A1DB0D /* LaunchScreen.storyboard */; };
+		27B8ABC81C1127AF00A1DB0D /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8ABC71C1127AF00A1DB0D /* CustomNavigationController.m */; };
+		27B8ABCA1C112AE400A1DB0D /* goback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B8ABC91C112AE400A1DB0D /* goback@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		27B8ABBB1C11278100A1DB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B8ABBE1C11278100A1DB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27B8ABC01C11278100A1DB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B8ABC61C1127AF00A1DB0D /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		27B8ABC71C1127AF00A1DB0D /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		27B8ABC91C112AE400A1DB0D /* goback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goback@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +67,10 @@
 				27B8ABB31C11278100A1DB0D /* AppDelegate.m */,
 				27B8ABB51C11278100A1DB0D /* ViewController.h */,
 				27B8ABB61C11278100A1DB0D /* ViewController.m */,
+				27B8ABC61C1127AF00A1DB0D /* CustomNavigationController.h */,
+				27B8ABC71C1127AF00A1DB0D /* CustomNavigationController.m */,
 				27B8ABB81C11278100A1DB0D /* Main.storyboard */,
+				27B8ABC91C112AE400A1DB0D /* goback@2x.png */,
 				27B8ABBB1C11278100A1DB0D /* Assets.xcassets */,
 				27B8ABBD1C11278100A1DB0D /* LaunchScreen.storyboard */,
 				27B8ABC01C11278100A1DB0D /* Info.plist */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B8ABBF1C11278100A1DB0D /* LaunchScreen.storyboard in Resources */,
+				27B8ABCA1C112AE400A1DB0D /* goback@2x.png in Resources */,
 				27B8ABBC1C11278100A1DB0D /* Assets.xcassets in Resources */,
 				27B8ABBA1C11278100A1DB0D /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			files = (
 				27B8ABB71C11278100A1DB0D /* ViewController.m in Sources */,
 				27B8ABB41C11278100A1DB0D /* AppDelegate.m in Sources */,
+				27B8ABC81C1127AF00A1DB0D /* CustomNavigationController.m in Sources */,
 				27B8ABB11C11278100A1DB0D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
